@@ -1,14 +1,14 @@
-# Dev Machine Cleanup Utility
+# Windows Dev Machine Hygiene
 
 A production-safe Windows batch automation script for cleaning and maintaining a developer workstation.
 
-This utility removes cache files, temporary folders, browser artifacts, IDE caches, package manager caches, and optionally performs system-level cleanup when run with Administrator privileges.
+This utility removes cache files, temporary folders, browser artefacts, IDE caches, package manager caches, and optionally performs system-level cleanup when run with Administrator privileges.
 
 ---
 
-## 🚀 Purpose
+## Purpose
 
-Developer machines accumulate cache, temp files, and build artifacts over time.  
+Developer machines accumulate cache, temp files, and build artefacts over time.  
 This utility helps:
 
 - Reclaim disk space
@@ -18,7 +18,7 @@ This utility helps:
 
 ---
 
-## 🔧 What Gets Cleaned
+##  What Gets Cleaned
 
 ### User-Level Cleanup
 
@@ -49,7 +49,7 @@ If not executed with admin privileges, system-level cleanup is skipped safely.
 
 ---
 
-## 🛡 Safety Controls
+##  Safety Controls
 
 - Detects Administrator privileges automatically
 - Skips system-level operations when not elevated
@@ -60,7 +60,7 @@ If not executed with admin privileges, system-level cleanup is skipped safely.
 
 ---
 
-## 🏗 Technical Highlights
+##  Technical Highlights
 
 - Modular function design using `call :CleanFolder`
 - Proper delayed expansion handling (`!errorlevel!`)
@@ -70,7 +70,7 @@ If not executed with admin privileges, system-level cleanup is skipped safely.
 
 ---
 
-## ▶ Usage
+##  Usage
 
 1. Download the script
 2. Run using Command Prompt
@@ -81,14 +81,12 @@ Right-click → **Run as Administrator**
 
 ---
 
-## 📌 Why This Project
-
-This project demonstrates:
+##  This project
 
 - Windows automation scripting
 - Defensive DevOps practices
 - Operational safety controls
-- Developer workstation hygiene automation
+- Windows Dev Machine Hygiene
 - Real-world scripting discipline
 
 ---
